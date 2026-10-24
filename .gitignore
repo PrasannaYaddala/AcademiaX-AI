@@ -1,0 +1,7 @@
+
+node_modules/
+dist/
+academiax-backend/target/
+.env
+.env.*
+application-local.properties

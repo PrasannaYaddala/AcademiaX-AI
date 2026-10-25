@@ -1,22 +1,68 @@
-# React + Vite
+# AcademiaX-AI
 
-The frontend calls the backend under `/api`. During local development, Vite
-proxies these requests to `http://localhost:8080` by default. Set
-`VITE_BACKEND_URL` in a local `.env` file if the backend runs elsewhere.
-For a deployed frontend, set `VITE_API_URL` to the backend API base URL (for
-example, `https://api.example.com/api`) before building.
+## Smart University Academic and Enrollment Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AcademiaX-AI is a full-stack web application designed to help students and teachers manage university courses, enrollments, assignments, submissions, and academic progress.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Student
+- Register and log in
+- Browse available courses
+- Enroll in courses
+- View assignments and deadlines
+- Submit assignments
+- Track academic activities
 
-## React Compiler
+### Teacher
+- Manage courses and assignments
+- View student submissions
+- Review and grade assignments
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Admin
+- Access administrative features based on the application's implementation
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: React, Vite, JavaScript, CSS
+- Backend: Java, Spring Boot
+- Database: PostgreSQL
+- API testing: Postman
+- Version control: Git and GitHub
+
+## Getting Started
+
+### Prerequisites
+- Node.js and npm
+- Java and Maven
+- PostgreSQL
+
+### Frontend
+1. Open a terminal in the frontend project folder.
+2. Install dependencies:
+
+   `npm install`
+
+3. Start the development server:
+
+   `npm run dev`
+
+### Backend
+1. Open the backend project in Spring Tools or your preferred Java IDE.
+2. Configure the PostgreSQL connection using your local database settings.
+3. Run the Spring Boot application.
+
+### Database
+Create and configure the PostgreSQL database required by the application. Use your local database credentials and keep passwords out of GitHub.
+
+## Project Repository
+
+https://github.com/PrasannaYaddala/AcademiaX-AI
+
+## Author
+
+Prasanna Yaddala
+
+## License
+
+No license has been specified yet.
